@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = {extras = ["standard"], version = "*"}
+opencv-python = "*"
+numpy = "*"
+rapidocr-onnxruntime = "*"
+langchain-groq = "*"
+langchain-core = "*"
+groq = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
