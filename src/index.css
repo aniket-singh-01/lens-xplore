@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: radial-gradient(circle, #4554a1 0%, #000000 100%);
+  @apply text-text bg-background;
+}
+
+* {
+  @apply transition-colors duration-150;
+}
